@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import "hero";
+@import "header";
+@import "media";
+@import "animations";
+@import "config";
+@import "footer";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  p {
+    margin: 1rem 0;
+  }
+}

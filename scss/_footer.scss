@@ -1,0 +1,49 @@
+.home {
+  height: 100vh;
+  width: 100w;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(../dist/img/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  .image {
+    img {
+      width: 50vw;
+    }
+  }
+  .content {
+    padding: 2rem;
+    margin-top: 4rem;
+    h1 {
+      font-size: 4rem;
+      margin: 2rem 0;
+    }
+    p {
+      font-size: 2rem;
+      text-align: justify;
+    }
+    button {
+      height: 4rem;
+      width: 18rem;
+      background: $blue;
+      color: #fff;
+      letter-spacing: 0.3rem;
+      outline: none;
+      border: none;
+      border-radius: 5rem;
+      cursor: pointer;
+      font-weight: bolder;
+      margin: 2rem 0;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
